@@ -1,0 +1,60 @@
+/* 
+list-style: none                                                     -gets rid of bulllets in a list
+font-family: "Times New Roman", Times, Serif;
+font-style: normal;                                                  -normal,italic,oblique
+font-size: 0px;     
+font-weight: normal                                                   -normal, bold
+vertical-align: center;
+*/
+*{
+    margin: 0px;
+}
+ #header, #nav, #body, #footer{
+    border-radius: 10px;
+    }
+ #container{
+    background-color: dodgerblue;
+    padding: 5px;
+    margin: 0px;
+    width: 970px;
+    }
+ #header{
+     display: block;
+     background-color: darkred;
+     color: lightpink;
+     font-size: 40px;
+     margin: 5px;
+    }
+    #nav{
+        background-color: darkcyan;
+        display: inline-block;
+        vertical-align: top;
+        width: 200px;
+        margin-right: 30px;
+        margin-left: 5px;
+        padding: 5px;
+    }
+ #nav p, #nav a, #footer a{
+     color: cyan;
+    }
+ #body{
+    background-color: navy;
+    display: inline-block;
+    width: 700px;
+    height: 550px;
+    padding: 5px;
+    margin-right: 5px;
+    }
+ #body p, #body ul, #body h2{
+     color: white;
+    }
+ #body a{
+     color: aquamarine;
+    }
+#footer{
+    background-color: grey;
+    color: white; 
+    height: 30px;
+    margin: 5px;
+    padding: 20px;
+}
